@@ -17,7 +17,7 @@ import com.ToDoList.Service.TaskService;
 
 @RestController
 @RequestMapping("/tasks")
-@CrossOrigin(origins = "http://localhost:5173")  // Allow React frontend
+@CrossOrigin(origins = "http://localhost:5173")  //React frontend
 public class TaskController {
 
     @Autowired
